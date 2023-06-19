@@ -1,0 +1,260 @@
+/**
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+**/
+
+body{
+    margin: 0%;
+    padding: 0%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    
+    }
+    
+    .desktop-img{
+        display: none;
+    }
+    
+    .head-desk h1{
+        display: none;
+    }
+    
+    .head-desk2 h1{
+        display: none;
+    }
+    
+    .head-desk1 h1{
+        display: none;
+    }
+    
+    #main-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 160px;
+    }
+    
+    .mobile-img
+    {
+        width: 350px;
+        height: 35vh;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .sec-div
+    {
+        background-color: white;
+        align-items: center;
+        margin-top: -4px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 47vh;
+        padding: 0px 18px;
+        
+    }
+    
+    .main1-p{
+        display: none;
+    }
+    
+    .first-p{
+        letter-spacing: 7px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .main-p
+    {
+        margin-top: -15px;
+    }
+    
+    .main-p p{
+        padding: 0%;
+        height: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+       
+    }
+    
+    
+    .head
+    {
+        margin-top: -14px;
+        font-weight: 500;
+    }
+    
+    .head h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+    }
+    
+    .head2
+    {
+        margin-top: -28px;
+    }
+    
+    .head2 h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+    }
+    
+    .head4
+    {
+        margin-top: 25px;
+    }
+    
+    .head4 h2{
+        font-family: 'Fraunces', serif;
+        color: hsl(135, 45%, 29%);
+        font-size: 30px;
+    }
+    
+    .spanh
+    {
+        float: right;
+        margin-top: -67px;
+        margin-right: 120px;
+    }
+    
+    .spanh p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-decoration: line-through;
+    }
+    
+    button{
+        background-color:   hsl(135, 45%, 29%);
+        padding: 14px 90px;
+        color: white;
+        margin-top: -20px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    button:hover{
+        background-color: rgb(20, 34, 20);
+        transition: 0.5s;
+    }
+    
+    .logo{
+        margin-right: 10px;
+    }
+    
+    @media(min-width: 1000px)
+    {
+        body{
+            background-color: hsl(31, 47%, 91%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+    
+        }
+    
+        .mobile-img{
+            display: none;
+        
+        }
+    
+        .desktop-img{
+            display: flex;
+            height: 67.5vh;
+            width: 330px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    
+        #main-container{
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+        }
+    
+        .sec-div
+    {
+        background-color: white;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 61.5vh;    
+        margin-top: 0;
+        width: 270px;
+        padding: 20px 30px;
+    }
+    
+    .head h1{
+        display: none;
+    }
+    
+    .head2 h1{
+        display: none;
+    }
+    
+    .head-desk h1{
+        display: flex;
+        height: 10px;
+        margin-top: 45px;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .head-desk1 h1{
+        display: flex;
+        height: 10px;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .head-desk2 h1{
+        display: flex;
+        height: 35px;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .main-p p{   
+        display: none;
+    }
+    
+    .main1-p {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main1-p p{
+        height: 0;
+        padding: 0;
+        margin-bottom: 8px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .head4 h2{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    
+    .spanh
+    {
+        float: right;
+        margin-top: -64px;
+        margin-right: 77px;
+    }
+    
+    .spanh p{
+        font-size: 13px;
+    }
+    
+    button{
+        margin: 0 0;
+        padding: 15px 70px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    
+    
+    
+    }
